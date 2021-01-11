@@ -1,0 +1,6 @@
+/.bundle/
+/Gemfile.lock
+/doc/
+/tmp/
+mkmf.log
+*.bundle
