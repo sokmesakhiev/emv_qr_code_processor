@@ -9,10 +9,10 @@ Gem::Specification.new do |spec|
   spec.email         = ["ksokmesa@gmail.com"]
   spec.summary       = %q{EMV QRCode reader and writer}
   spec.description   = %q{Process to generate and read data EMV QRCode }
-  spec.homepage      = "http://www.learningtapestry.com"
+  spec.homepage      = "https://github.com/sokmesakhiev/emv_qr_code_processor"
   spec.license       = "MIT"
   # include all files required to run
-  spec.files         = ['lib/emv_qr_code_processor/.rb', 'lib/emv_qr_code_processor/version.rb']
+  # spec.files         = ['lib/emv_qr_code_processor/encoder_spec.rb', 'lib/emv_qr_code_processor/decoder_spec.rb']
   # put any files in ./bin if you want them auto-installed to path when gem is installed
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
