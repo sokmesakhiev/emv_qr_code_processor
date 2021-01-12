@@ -1,3 +1,5 @@
+require 'digest/crc16_ccitt'
+
 module EmvQrCodeProcessor
   class Decoder
     attr_reader :raw_qr_code

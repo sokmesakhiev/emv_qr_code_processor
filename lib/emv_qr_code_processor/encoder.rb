@@ -1,3 +1,5 @@
+require 'digest/crc16_ccitt'
+
 module EmvQrCodeProcessor
   class Encoder
     attr_reader :payload

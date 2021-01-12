@@ -1,5 +1,3 @@
-require 'digest/crc16_ccitt'
-
 require 'emv_qr_code_processor/schema'
 require 'emv_qr_code_processor/encoder'
 require 'emv_qr_code_processor/decoder'

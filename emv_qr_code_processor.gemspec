@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   # use add_runtime_dependency where this gem needs a gem in order to function
   # spec.add_runtime_dependency "gem dependency"
-  spec.add_development_dependency "bundler", "~> 2.1.4"
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.2"
-  spec.add_development_dependency "money-rails", "~> 1.13.0"
-  spec.add_development_dependency "digest-crc", "~> 0.6.3"
+  spec.add_dependency "bundler", "~> 2.1.4"
+  spec.add_dependency "rake", "~> 13.0"
+  spec.add_dependency "rspec", "~> 3.2"
+  spec.add_dependency "money-rails", "~> 1.13.0"
+  spec.add_dependency "digest-crc", "~> 0.6.3"
 end
