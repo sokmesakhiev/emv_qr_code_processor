@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem "rails", "~> 6.0"
-
 gem "rspec-core"
 gem "rspec-expectations"
 gem "rspec-mocks"
