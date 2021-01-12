@@ -1,11 +1,9 @@
 require "spec_helper"
-require 'digest/crc16_ccitt'
 
 module EmvQrCodeProcessor
   RSpec.describe Encoder do
     describe "#encode" do
       it "encodes emv payload for dynamic qr_code" do
-        transaction_amount = Money.new(1000, "USD")
 
         payload = {
           payload_format_indicator: "01",
@@ -15,8 +13,8 @@ module EmvQrCodeProcessor
           merchant_city: "Banteay Meanchey",
           merchant_name: "Kuntheas Shop",
           country_code: "KH",
-          transaction_amount: transaction_amount.to_s,
-          transaction_currency: transaction_amount.currency.iso_numeric,
+          transaction_amount: "10.00",
+          transaction_currency: "840",
           additional_data_field: {
             bill_number: "12345678"
           }
