@@ -1,9 +1,9 @@
 on: push
-name: Build Gateway
+name: Build Gem
 
 jobs:
   build:
-    name: Build
+    name: build-gem
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,7 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-emv-qr-code-processor-${{ hashFiles('Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-gem-gateway-
+            ${{ runner.os }}-gem-emv-qr-code-processor-
 
       - name: Install dependencies
         run: |
