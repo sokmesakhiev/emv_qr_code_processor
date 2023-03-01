@@ -4,3 +4,5 @@
 /tmp/
 mkmf.log
 *.bundle
+
+/tags
