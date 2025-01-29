@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   # use add_runtime_dependency where this gem needs a gem in order to function
   # spec.add_runtime_dependency "gem dependency"
-  spec.add_dependency "digest-crc", "~> 0.6.3"
+  spec.add_dependency "digest-crc", ">= 0.6.3", "< 0.8.0"
 end
